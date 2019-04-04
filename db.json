@@ -1,0 +1,46 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome":"Ação",
+      "filmes":[
+        {
+          "id":1,
+          "nome":"Assassin's Creed ",
+          "imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+        },
+        {
+          "id":2,
+          "nome":"Triplo X",
+          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+        },
+        {
+          "id":3,
+          "nome":"Adrenalina",
+          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+        }
+      ]
+    },
+    {
+      "id":2,
+      "nome":"Comédia",
+      "filmes":[
+        {
+          "id": 4,
+          "nome":"O pequenino",
+          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+        },
+        {
+          "id": 5,
+          "nome":"Todo poderoso",
+          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+        },
+        {
+          "id": 6,
+          "nome":"American Pie",
+          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+        }
+      ]
+    }
+  ]
+}
