@@ -14,7 +14,7 @@
 <script>
     export default {
         name: "Filme",
-        props: ['nomeFilme', 'imagem'],
+        props: ['nomeFilme', 'imagem', 'link'],
       data(){
         return{
           efeito: null

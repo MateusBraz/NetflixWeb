@@ -7,7 +7,8 @@
         {
           "id":1,
           "nome":"Assassin's Creed ",
-          "imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+          "imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700",
+          "link": "https://www.youtube.com/embed/Q0Fg6jJ9ouI"
         },
         {
           "id":2,
@@ -18,6 +19,16 @@
           "id":3,
           "nome":"Adrenalina",
           "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+        },
+        {
+          "id":4,
+          "nome":"Triplo X",
+          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+        },
+        {
+          "id":5,
+          "nome":"Adrenalina",
+          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
         }
       ]
     },
@@ -26,19 +37,122 @@
       "nome":"Comédia",
       "filmes":[
         {
-          "id": 4,
+          "id": 6,
           "nome":"O pequenino",
           "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
         },
         {
-          "id": 5,
+          "id": 7,
           "nome":"Todo poderoso",
           "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
         },
         {
-          "id": 6,
+          "id": 8,
           "nome":"American Pie",
           "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+        },
+        {
+          "id":9,
+          "nome":"Triplo X",
+          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+        },
+        {
+          "id":10,
+          "nome":"Adrenalina",
+          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "nome":"Terror",
+      "filmes":[
+        {
+          "id": 11,
+          "nome":"O pequenino",
+          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+        },
+        {
+          "id": 12,
+          "nome":"Todo poderoso",
+          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+        },
+        {
+          "id": 13,
+          "nome":"American Pie",
+          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+        },
+        {
+          "id":14,
+          "nome":"Triplo X",
+          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+        },
+        {
+          "id":15,
+          "nome":"Adrenalina",
+          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "nome":"Suspense",
+      "filmes":[
+        {
+          "id": 16,
+          "nome":"O pequenino",
+          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+        },
+        {
+          "id": 17,
+          "nome":"Todo poderoso",
+          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+        },
+        {
+          "id": 18,
+          "nome":"American Pie",
+          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+        },
+        {
+          "id":19,
+          "nome":"Triplo X",
+          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+        },
+        {
+          "id":20,
+          "nome":"Adrenalina",
+          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "nome":"Faroeste",
+      "filmes":[
+        {
+          "id": 21,
+          "nome":"O pequenino",
+          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+        },
+        {
+          "id": 22,
+          "nome":"Todo poderoso",
+          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+        },
+        {
+          "id": 23,
+          "nome":"American Pie",
+          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+        },
+        {
+          "id":24,
+          "nome":"Triplo X",
+          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+        },
+        {
+          "id":25,
+          "nome":"Adrenalina",
+          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
         }
       ]
     }
