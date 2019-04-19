@@ -1,70 +1,62 @@
 <template>
-  <div>
-    <b-form @submit="onSubmit" @reset="onReset">
-      <b-form-group
-        id="input-group-1"
-        label="Email:"
-        label-for="input-1"
-        description="We'll never share your email with anyone else."
-      >
-        <b-form-input
-          id="input-1"
-          v-model="form.email"
-          type="email"
-          required
-          placeholder="Enter email"
-        ></b-form-input>
-      </b-form-group>
+  <div class="login">
 
-      <b-form-group id="input-group-2" label="Name:" label-for="input-2">
-        <b-form-input
-          id="input-2"
-          v-model="form.name"
-          required
-          placeholder="Enter name"
-        ></b-form-input>
-      </b-form-group>
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
 
-      <b-form-group id="input-group-2" label="Password:" label-for="input-2">
-        <b-form-input
-          id="input-2"
-          v-model="form.name"
-          required
-          placeholder="Enter password"
-        ></b-form-input>
-      </b-form-group>
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <h1>GirenFlix</h1>
+        </div>
 
-      <b-button type="submit" variant="primary">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
-    </b-form>
-    <b-card class="mt-3" header="Form Data Result">
-      <pre class="m-0">{{ form }}</pre>
-    </b-card>
+
+        <form>
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
+          <input type="password" id="password" class="fadeIn third" name="login" placeholder="Senha">
+          <input v-on:click="logado" type="button" class="fadeIn fourth botao" value="Entrar">
+        </form>
+
+
+
+        <a style="color: #B9090B;" v-if="existente"> Login e(ou) senha incorreto</a>
+
+        <div id="formFooter">
+          <a class="underlineHover" href="#/cadastro">Cadastre-se</a>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
   export default {
+    name: "Login",
     data() {
       return {
-        form: {
-          email: '',
-          name: '',
-          password: ''
-        }
+        usuarios: [],
+        existente: false
       }
     },
+
+    created() {
+      this.$http.get('http://localhost:3000/usuario').then(response => {
+        this.usuarios = response.body;
+      });
+    },
+
     methods: {
-      onSubmit(evt) {
-        evt.preventDefault()
-        alert(JSON.stringify(this.form))
-      },
-      onReset(evt) {
-        evt.preventDefault()
-        // Reset our form values
-        this.form.email = ''
-        this.form.name = ''
-        this.form.password = ''
+      logado: function (event){
+        for (var k in this.usuarios) {
+          if (document.getElementById("login").value == this.usuarios[k].email &&
+            document.getElementById("password").value == this.usuarios[k].password) {
+            window.location.href="#/filmes"
+            this.existente = false;
+          }
+        }
+        this.existente = true;
       }
     }
   }

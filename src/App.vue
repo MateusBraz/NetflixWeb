@@ -25,8 +25,8 @@ export default {
   },created(){
       this.$http.get('http://localhost:3000/categorias').then(response => {
         this.categorias = response.body;
-      })
 
+      })
   }
 
 }

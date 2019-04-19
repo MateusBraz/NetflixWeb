@@ -1,158 +1,190 @@
 {
+  "usuario": [
+    {
+      "email": "mateus",
+      "password": "123",
+      "id": 1
+    }
+  ],
   "categorias": [
     {
       "id": 1,
-      "nome":"Ação",
-      "filmes":[
+      "nome": "Ação",
+      "filmes": [
         {
-          "id":1,
-          "nome":"Assassin's Creed ",
+          "id": 1,
+          "nome": "Assassin's Creed",
           "imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700",
-          "link": "https://www.youtube.com/embed/Q0Fg6jJ9ouI"
+          "link": "https://www.youtube.com/embed/Q0Fg6jJ9ouI",
+          "url": "https://www.youtube.com/embed/CwxhljaALpM"
         },
         {
-          "id":2,
-          "nome":"Triplo X",
-          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+          "id": 2,
+          "nome": "Triplo X - Reativado",
+          "imagem": "http://www.88milhas.com.br/wp-content/uploads/2017/01/88milhas_xXxReativado01.jpg",
+          "url": "https://www.youtube.com/embed/dbsRu7ihDfo"
         },
         {
-          "id":3,
-          "nome":"Adrenalina",
-          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+          "id": 3,
+          "nome": "Adrenalina",
+          "imagem": "http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg",
+          "url": "https://www.youtube.com/embed/t2koYVqwzT4"
         },
         {
-          "id":4,
-          "nome":"Triplo X",
-          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+          "id": 4,
+          "nome": "B13 - Ultimato",
+          "imagem": "http://www.cineplayers.com/img/cartazes/7404_poster.jpg",
+          "url": "https://www.youtube.com/embed/jDDFNpj9xBQ"
         },
         {
-          "id":5,
-          "nome":"Adrenalina",
-          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+          "id": 5,
+          "nome": "Exterminador do Futuro - Genesis",
+          "imagem": "https://i0.wp.com/www.homemexpresso.com.br/wp-content/uploads/2015/04/Exterminador-do-futuro-5-Genesis.jpg?fit=1024%2C653",
+          "url": "https://www.youtube.com/embed/hOesomQSaSc"
         }
       ]
     },
     {
-      "id":2,
-      "nome":"Comédia",
-      "filmes":[
+      "id": 2,
+      "nome": "Comédia",
+      "filmes": [
         {
           "id": 6,
-          "nome":"O pequenino",
-          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+          "nome": "O pequenino",
+          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg",
+          "url": "https://www.youtube.com/embed/x9STUnqrE_c"
         },
         {
           "id": 7,
-          "nome":"Todo poderoso",
-          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+          "nome": "Todo poderoso",
+          "imagem": "http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg",
+          "url": "https://www.youtube.com/embed/ii7FL7t7I98"
         },
         {
           "id": 8,
-          "nome":"American Pie",
-          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+          "nome": "American Pie",
+          "imagem": "http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg",
+          "url": "https://www.youtube.com/embed/Sithad108Og"
         },
         {
-          "id":9,
-          "nome":"Triplo X",
-          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+          "id": 9,
+          "nome": "As Branquelas",
+          "imagem": "http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/97/52/82/20534159.jpg",
+          "url": "https://www.youtube.com/embed/xfWu_60OeS4"
         },
         {
-          "id":10,
-          "nome":"Adrenalina",
-          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+          "id": 10,
+          "nome": "O Auto da Comparecida",
+          "imagem": "https://upload.wikimedia.org/wikipedia/pt/b/bf/O_auto_da_compadecida.jpg",
+          "url": "https://www.youtube.com/embed/yJJcDwhAipI"
         }
       ]
     },
     {
-      "id":3,
-      "nome":"Terror",
-      "filmes":[
+      "id": 3,
+      "nome": "Terror",
+      "filmes": [
         {
           "id": 11,
-          "nome":"O pequenino",
-          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+          "nome": "Jogos Mortais",
+          "imagem": "http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/87/06/15/19871623.jpg",
+          "url": "https://www.youtube.com/embed/4cjXhMqNRjg"
         },
         {
           "id": 12,
-          "nome":"Todo poderoso",
-          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+          "nome": "O Massacre da Serra Elétrica",
+          "imagem": "http://jgdprod-blogs-us.s3.amazonaws.com/blogs/wp-content/uploads/thiago-sampaio/files/2013/07/22175844/massacre.jpg",
+          "url": "https://www.youtube.com/embed/M77xpNRWyj8"
         },
         {
           "id": 13,
-          "nome":"American Pie",
-          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+          "nome": "Olhos Famintos 3",
+          "imagem": "https://http2.mlstatic.com/filme-olhos-famintos-3-digital-D_NQ_NP_975917-MLB27955897677_082018-F.jpg",
+          "url": "https://www.youtube.com/embed/CLkkDh-9zzA"
         },
         {
-          "id":14,
-          "nome":"Triplo X",
-          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+          "id": 14,
+          "nome": "Freedy vs Jason",
+          "imagem": "http://barkerhost.com/wp-content/uploads/sites/4/2016/12/x6reaPOdYEGwNzdAduSBGCzYkos-5.jpg",
+          "url": "https://www.youtube.com/embed/Q2nRVXgWvJA"
         },
         {
-          "id":15,
-          "nome":"Adrenalina",
-          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+          "id": 15,
+          "nome": "O Chamado 3",
+          "imagem": "https://leiturasdebrain.files.wordpress.com/2017/02/32086499026_29b466dfc3_z.jpg?w=663",
+          "url": "https://www.youtube.com/embed/XS-zQcKKQEE"
         }
       ]
     },
     {
-      "id":4,
-      "nome":"Suspense",
-      "filmes":[
+      "id": 4,
+      "nome": "Aventura",
+      "filmes": [
         {
           "id": 16,
-          "nome":"O pequenino",
-          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+          "nome": "Os Vingadores",
+          "imagem": "https://abrilmdemulher.files.wordpress.com/2019/03/vingadores-ultimato.jpg",
+          "url": "https://www.youtube.com/embed/kb_QWXQY98M"
         },
         {
           "id": 17,
-          "nome":"Todo poderoso",
-          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+          "nome": "Robin Hood - A Origem",
+          "imagem": "https://images-na.ssl-images-amazon.com/images/I/91FR8gN8zOL._SL1500_.jpg",
+          "url": "https://www.youtube.com/embed/wX1s187VUWk"
         },
         {
           "id": 18,
-          "nome":"American Pie",
-          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+          "nome": "Piratas do Caribe o Bau da Morte",
+          "imagem": "https://cdn.telecineplay.com.br/isl/api/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%27177460%27&EntityType=%27Item%27&EntityId=%275987%27&Width=720&Height=1080&device=web_browser&subscriptions=Anonymous",
+          "url": "https://www.youtube.com/embed/ZHZu8DHWO3Q"
         },
         {
-          "id":19,
-          "nome":"Triplo X",
-          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+          "id": 19,
+          "nome": "Capitão América - O Primeiro Vingador",
+          "imagem": "https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=7004128&qld=90&l=430&a=-1=1001336615",
+          "url": "https://www.youtube.com/embed/KCrulxu327Q"
         },
         {
-          "id":20,
-          "nome":"Adrenalina",
-          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+          "id": 20,
+          "nome": "Pantera Negra",
+          "imagem": "http://www.oeco.org.br/wp-content/uploads/2018/02/Black-Panther-The-Official-Movie-Special-600x823.jpg",
+          "url": "https://www.youtube.com/embed/x02xX2dv6bQ"
         }
       ]
     },
     {
-      "id":5,
-      "nome":"Faroeste",
-      "filmes":[
+      "id": 5,
+      "nome": "Anime",
+      "filmes": [
         {
           "id": 21,
-          "nome":"O pequenino",
-          "imagem": "https://http2.mlstatic.com/dvd-o-pequenino-marlon-wayans-original-D_NQ_NP_539021-MLB20700659949_052016-F.jpg"
+          "nome": "Dragon Ball Super - A Origem dos Saiyajins",
+          "imagem": "http://cebolaverde.com.br/wp-content/uploads/2016/12/Dragon-Ball-Super.jpg",
+          "url": "https://www.youtube.com/embed/0Lp8YvYxBEo"
         },
         {
           "id": 22,
-          "nome":"Todo poderoso",
-          "imagem":"http://br.web.img3.acsta.net/c_215_290/medias/nmedia/18/95/73/93/20425650.jpg"
+          "nome": "The Last Naruto o Filme",
+          "imagem": "https://upload.wikimedia.org/wikipedia/pt/archive/f/f5/20150518135602%21The_Last_Naruto_the_Movie.jpg",
+          "url": "https://www.youtube.com/embed/CcFFQBeftCY"
         },
         {
           "id": 23,
-          "nome":"American Pie",
-          "imagem":"http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/90/21/82/20086183.jpg"
+          "nome": "Pokémon - O Filme",
+          "imagem": "https://http2.mlstatic.com/dvd-pokemon-o-filme-eu-escolho-voc-lancamento-2017-D_NQ_NP_801434-MLB26631709223_012018-F.jpg",
+          "url": "https://www.youtube.com/embed/vmt9zSvdQzY"
         },
         {
-          "id":24,
-          "nome":"Triplo X",
-          "imagem":"http://br.web.img2.acsta.net/c_215_290/medias/nmedia/18/92/15/34/20183462.jpg"
+          "id": 24,
+          "nome": "Digimon o Filme",
+          "imagem": "https://image.tmdb.org/t/p/w342/wtEWxGlXb897uldt55l3rn4eYuo.jpg",
+          "url": "https://www.youtube.com/embed/tx5ThQq2dBw"
         },
         {
-          "id":25,
-          "nome":"Adrenalina",
-          "imagem":"http://4.bp.blogspot.com/-FSgerzBRzQI/UEk-6UG2NiI/AAAAAAAADRU/yWjv9nPFbC8/s1600/Adrenalina.jpg"
+          "id": 25,
+          "nome": "Akira",
+          "imagem": "http://4.bp.blogspot.com/-BscLmZQc_S8/VKmUE2Eel3I/AAAAAAAAG_k/uwzhJPU8GXw/s1600/akira_poster_03.jpg",
+          "url": "https://www.youtube.com/embed/OLFZQhVOgYc"
         }
       ]
     }
