@@ -1,4 +1,5 @@
 <template>
+
   <div class="slider">
     <h3>{{titulo}}</h3>
     <span v-on:mouseover="scrollEsquerda()" v-on:mouseout="clearScroll()" class="handle handlePrev active">
@@ -8,7 +9,7 @@
     <div ref="scroller" class="row">
       <div class="row__inner">
         <Filme :key="filme.id" v-for="filme in filmes" v-bind:nome-filme="filme.nome"
-               v-bind:imagem="filme.imagem"></Filme>
+               v-bind:imagem="filme.imagem" v-bind:url="filme.url"></Filme>
 
       </div>
     </div>

@@ -1,5 +1,8 @@
 <template>
   <div class="contain">
+    <div class="inicio">
+      <a id="sair" href="/" >Sair</a>
+    </div>
     <Categoria :key="categoria.id" v-for="categoria in categorias"
                v-bind:titulo="categoria.nome"
                v-bind:filmes="categoria.filmes">
@@ -13,27 +16,44 @@
 
   import Categoria from './components/Categoria'
 
-export default {
-    components:{
+  export default {
+    components: {
       Categoria
     },
-  name: 'App',
-  data() {
-    return {
-      categorias: []
-    }
-  },created(){
+    name: 'App',
+    data() {
+      return {
+        categorias: []
+      }
+    }, created() {
       this.$http.get('http://localhost:3000/categorias').then(response => {
         this.categorias = response.body;
 
       })
-  }
+    }
 
-}
+  }
 </script>
 
 <style>
   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+  .inicio{
+    background-image: url("https://assets.papelpop.com/wp-content/uploads/2017/11/melhoresde2017.png");
+    height: 500px;
+    webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-right: 25px;
+    margin-top:25px;
+  }
+
+  #sair{
+    font-size: 40px;
+    margin-left: 10px;
+    text-shadow: 0 0 4px #1d2124;
+  }
 
   body,
   html {
@@ -55,6 +75,7 @@ export default {
     align-items: center;
     width: 100%;
   }
+
   * {
     box-sizing: border-box;
   }
@@ -63,11 +84,13 @@ export default {
   p {
     text-align: center;
   }
+
   p {
     width: 100%;
     max-width: 500px;
     margin: auto;
   }
+
   a:link,
   a:hover,
   a:active,
@@ -77,10 +100,12 @@ export default {
     color: #95a5a6;
     text-decoration: none;
   }
+
   a:hover {
     color: #7f8c8d;
     text-decoration: underline;
   }
+
   .contain {
     width: 1329px
   }
@@ -94,7 +119,7 @@ export default {
     touch-action: pan-y;
   }
 
-  .slider h3{
+  .slider h3 {
     position: absolute;
     top: 22px;
     z-index: 30;
@@ -136,7 +161,7 @@ export default {
     color: #fff;
   }
 
-  .fa{
+  .fa {
     font-size: 46px;
     margin-top: 120px;
   }
@@ -144,6 +169,7 @@ export default {
   .row {
     overflow: hidden;
   }
+
   .row__inner {
     -webkit-transition: 450ms -webkit-transform;
     transition: 450ms -webkit-transform;
@@ -154,7 +180,6 @@ export default {
     margin: 70.3125px 0;
     padding-bottom: 10px;
   }
-
 
   .gui-card {
     position: relative;
@@ -169,12 +194,14 @@ export default {
     -webkit-transform-origin: center left;
     transform-origin: center left;
   }
+
   .gui-card__img {
     width: 250px;
     height: 140.625px;
     -o-object-fit: cover;
     object-fit: cover;
   }
+
   .gui-card__details {
     position: absolute;
     bottom: 0;
@@ -183,11 +210,12 @@ export default {
     top: 0;
     font-size: 10px;
     opacity: 0;
-    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
-    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     -webkit-transition: 450ms opacity;
     transition: 450ms opacity;
   }
+
   .gui-card__details:after,
   .gui-card__details:before {
     content: '';
@@ -196,6 +224,7 @@ export default {
     left: 50%;
     display: #000;
   }
+
   .gui-card__details:after {
     margin-top: -25px;
     margin-left: -25px;
@@ -205,9 +234,10 @@ export default {
     line-height: 50px;
     text-align: center;
     border-radius: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
+
   .gui-card__details:before {
     content: '▶';
     left: 0;
@@ -218,26 +248,32 @@ export default {
     text-align: center;
     z-index: 2;
   }
+
   .gui-card:hover .gui-card__details {
     opacity: 1;
   }
+
   .gui-card__title {
     position: absolute;
     bottom: 0;
     padding: 10px;
   }
+
   .row__inner:hover {
     -webkit-transform: translate3d(-62.5px, 0, 0);
     transform: translate3d(-62.5px, 0, 0);
   }
+
   .row__inner:hover .gui-card {
     opacity: 0.3;
   }
+
   .row__inner:hover .gui-card:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     opacity: 1;
   }
+
   .gui-card:hover ~ .gui-card {
     -webkit-transform: translate3d(125px, 0, 0);
     transform: translate3d(125px, 0, 0);
